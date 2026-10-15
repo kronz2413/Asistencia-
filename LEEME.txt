@@ -1,0 +1,22 @@
+SISTEMA DE REUNIONES Y ASISTENCIA INAP
+======================================
+INSTALACIÓN:
+1. Copia la carpeta sistema-reuniones-inap dentro de C:\xampp\htdocs\
+2. Inicia Apache y MySQL en XAMPP.
+3. Abre http://localhost/phpmyadmin/
+4. Pulsa Importar y selecciona database.sql. Ejecuta la importación.
+5. Abre http://localhost/sistema-reuniones-inap/
+
+ARCHIVOS:
+- index.php: pantallas y acciones del sistema.
+- config.php: conexión a MySQL/MariaDB.
+- database.sql: crea la base de datos y tablas.
+- assets/style.css: diseño.
+- assets/app.js: código QR, búsqueda por cédula y firma.
+
+INCLUYE:
+Inicio, crear reunión, enlace/QR, reuniones, personas, registro público de asistencia, búsqueda por cédula, autocompletado, firma digital, reportes e impresión/Guardar como PDF.
+No hay roles ni inicio de sesión, como se acordó.
+El QR usa una biblioteca CDN y necesita internet. El PDF se genera desde la opción de impresión del navegador.
+Para probar: cédulas ficticias 001-0000000-1 y 001-0000000-2.
+Usa solo datos ficticios mientras pruebas. Cédula y firma son datos personales; antes de uso real, INAP debe validar seguridad, acceso, HTTPS, respaldos y privacidad.

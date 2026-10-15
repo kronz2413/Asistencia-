@@ -1,0 +1,12 @@
+# Pruebas manuales sugeridas
+- [ ] Importar database.sql sin errores.
+- [ ] Inicio abre y muestra contadores.
+- [ ] Crear reunión exige todos los campos.
+- [ ] Reunión aparece en Mis Reuniones.
+- [ ] Enlace/QR aparece tras crear una reunión (QR requiere internet).
+- [ ] La cédula ficticia 001-0000000-1 encuentra a Persona de Prueba.
+- [ ] Una cédula desconocida muestra error.
+- [ ] No se registra asistencia sin firma.
+- [ ] La asistencia aparece en el reporte.
+- [ ] Una misma persona no se registra dos veces en la misma reunión.
+- [ ] Imprimir permite seleccionar Guardar como PDF.
